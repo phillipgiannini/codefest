@@ -4,5 +4,28 @@
 }
 
 body {
-	background: black;
+	background: green;
+}
+
+
+header {
+
+	background: url(http://www.pageresource.com/wallpapers/wallpaper/corgi-dog-cardigan-welsh-herding-dogs_29485.jpg);
+	background-size: cover;
+	height: 100vh; 
+}
+
+.title {
+	position: absolute;;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+	text-align: center;
+	font-size: 3em;
+}
+
+#main {
+	width: 80%;
+	margin: 20px auto;
 }
